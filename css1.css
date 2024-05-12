@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.genres {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.genre-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.anime-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.anime {
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.333% - 20px); /* Adjust the width of anime cards */
+}
+
+.anime img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.anime h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.anime h2 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.anime p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}

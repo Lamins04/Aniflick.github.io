@@ -1,0 +1,85 @@
+<html>
+<head>
+<link rel="stylesheet" href="css2.css">
+</head>
+<style>
+div{
+margin-bottom: 5px;
+}
+label {
+display: inline-block;
+width: 150px;
+}
+register{
+margin: 185px;
+cursor: pointer;
+}
+hr{
+width: 100%;
+}
+</style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css2.css">
+
+<body>
+  <body
+  style="background: url('BG6.png') no-repeat center center fixed; background-size: cover;">
+  </body>
+ </a>
+ <div id="container2">
+    <h1>Register</h1>
+     <p>Complete the Register</p>	
+    <hr>
+  
+    <div class="form-section">
+      <h2>Account Information:</h2>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="registeruser" placeholder="Username" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="registerpassword" placeholder="Password">
+      </div>
+
+      <div class="form-group">
+        <label for="confirm-password">Confirm your password:</label>
+        <input type="password" id="ConfirmPassword" placeholder="Confirm Password">
+      </div>
+
+      <div class="form-group">
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" class="large-input">
+  </div>
+    </div>
+
+      <button type="submit" onclick="register()">Create</button>
+
+      <div id="back-button">
+        <a href="index.html">
+        <button>Back</button>
+
+  </body>
+  </html>
+  <script src="Registration.js"></script>
+  <script>
+      function register() {
+          var registeruser = document.getElementById('registeruser').value;
+          var registerpassword = document.getElementById('registerpassword').value;
+          var ConfirmPassword = document.getElementById('ConfirmPassword').value;
+      
+          if (registerpassword !== ConfirmPassword) {
+              alert('Password and Confirm Password do not match. Please try again.');
+              return;
+          }
+      
+          localStorage.setItem('registeruser', registeruser);
+          localStorage.setItem('registerpassword', registerpassword);
+      
+          alert('Registration successful!');
+          window.location.href = 'index.html';
+      }
+      </script>

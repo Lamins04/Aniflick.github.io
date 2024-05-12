@@ -1,0 +1,145 @@
+body{
+ font-family: Calibri;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ margin: 0;
+ overflow-y: scroll;
+ }
+ #header{
+ background-color: #000000;
+ opacity: 0.8;
+ height: 90px;
+ display: flex;
+ align-items: center;
+ padding: 10px;
+ color: #000000;
+ margin: 10px;
+ }
+ #logo{
+ width: 100px;
+ height: auto;
+ opacity: 1;
+ margin: 30px;
+ border-radius: 15px;
+ }
+ #sitename{
+ margin-left: 30px;
+ color: rgb(0, 0, 0);
+ font-size: 70px;
+ opacity: 1;
+ }
+ #back-button {
+ text-align: left;
+ margin-top: 10px;
+ margin: 10px;
+ }
+
+ #back-button button {
+ background-color: rgb(255, 36, 36);
+ color: rgb(255, 255, 255);
+ border: none;
+ padding: 10px 20px;
+ border-radius: 5px;
+ cursor: pointer;
+ }
+
+
+ #leftcontainer{
+ font-family: Calibri;
+ text-align: center;
+ float: left;
+ display: inline-block;
+ width: 80%;
+ height: 82%;
+ margin-left: 12.5px;
+ color: rgb(0, 0, 0);
+ border-top: 1px solid #000000;
+ border-left: 1px solid #000000;
+ border-bottom: 1px solid #000000;
+ border-radius: 10px 0px 0px 10px;
+ background-color: #fff45ace;
+ opacity: 0.9;
+ }
+ #rightcontainer{
+ text-align: center;
+ display: inline-block;
+ width: 20px;
+ height: 82%;
+ color: #000000;
+ border-top: 1px solid #ddd;
+ border-right: 1px solid #ddd;
+ border-left: 1px solid #ddd;
+ border-bottom: 1px solid #ddd;
+ border-radius: 0px 10px 10px 0px;
+ background-color: #000000;
+ opacity: 1;
+ }
+ #container2 {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ padding: 25px;
+ max-width: 350px;
+ color: #ffffff;
+ border: 2px solid #000000;
+ border-radius: 15px;
+ margin: auto;
+ background-color: #696969ce;
+ opacity: 0.9;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ margin-top: 140px;
+ }
+
+ .form-section {
+ margin: 20px 0;
+ }
+
+ .form-group {
+ margin: 10px 0;
+ text-align: left;
+ }
+
+ .form-group label {
+ display: inline-block;
+ width: 150px;
+ }
+ .large-input {
+ width: 35.2%;
+ padding: 1px;
+ font-size: 16px;
+
+ }
+ .radio-group {
+ display: flex;
+ margin-bottom:-30;
+ }
+
+ .radio-label {
+ margin-left: 5px;
+ }
+
+ #create-button {
+ display: flex;
+ justify-content: right;
+ margin-top: 20px;
+ margin-right: 400px;
+ }
+
+ #create-button button {
+ background-color: rgba(255, 255, 255, 0.959);
+ color: #0004eb;
+ border: none;
+ padding: 10px 20px;
+ border-radius: 10px;
+ cursor: pointer;
+ }
+
+ #create-button button:hover {
+ background-color: #f0f0f0;
+ }
+
+
+ 
+
