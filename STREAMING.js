@@ -3,7 +3,7 @@ const app = express();
 const fs = require("fs");
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/index.html");
+  res.sendFile(__dirname + "/STREAMING.html");
 });
 
 app.get("/video", function (req, res) {
